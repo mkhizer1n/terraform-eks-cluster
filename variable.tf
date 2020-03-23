@@ -9,13 +9,13 @@ variable "region" {
 variable "aws_access_key" {
  type = "string"
  description = "The account identification key used by your Terraform client."
- default = "AKIA3QQQQARMJVJKVFFF"
+ default = ""
 }
 
 variable "aws_secret_key" {
  type = "string"
  description = "The secret key used by your terraform client to access AWS."
- default = "DlRs70Y7YLwna8eUT3Nobf6fcQnBXPHeaBOAVzsM"
+ default = ""
 }
 
 variable "region" {
