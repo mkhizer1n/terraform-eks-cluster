@@ -1,9 +1,9 @@
 variable "profile" {
   description = "AWS User account Profile"
-  default = "terrafrom"
 }
 
 variable "region" {
+  description = "Please Enter Region"
   default = "ap-south-1"
 }
 variable "aws_access_key" {
@@ -16,10 +16,6 @@ variable "aws_secret_key" {
  type = "string"
  description = "The secret key used by your terraform client to access AWS."
  default = ""
-}
-
-variable "region" {
-  default = "ap-south-1"
 }
 
 variable "key" {
@@ -35,7 +31,7 @@ variable "instance-ami" {
 }
 
 variable "instance_type" {
-  default = "t3.medium"
+  default = "t2.xlarge"
 }
 
 
