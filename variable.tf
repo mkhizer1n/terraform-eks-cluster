@@ -4,7 +4,6 @@ variable "profile" {
 
 variable "region" {
   description = "Please Enter Region"
-  default = "ap-south-1"
 }
 variable "aws_access_key" {
  type = "string"
@@ -27,7 +26,7 @@ variable "sub_ids" {
 }
 
 variable "instance-ami" {
-  default = "ami-0b99c7725b9484f9e" # AMI of Mumbai region
+   description = "Enter ami Id"
 }
 
 variable "instance_type" {
@@ -40,7 +39,7 @@ variable "cluster-name" {
 }
 
 variable "server-name" {
-  description = "Ec2 Server Name"i
+  description = "Ec2 Server Name"
   default = "eks-master"
 }
 
